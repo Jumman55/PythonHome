@@ -68,3 +68,14 @@ def average_from_input():
             total += x
             counter += 1
     return (total / counter)
+
+# %%
+
+def negative_number():
+    while True:
+        x = int(input("Give an int:"))
+        
+        if x == 0:
+            break
+        else:
+            return x*(-1)
