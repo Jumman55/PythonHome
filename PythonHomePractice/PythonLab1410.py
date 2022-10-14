@@ -80,4 +80,4 @@ def negative_number():
             counter += 1
         if x == 0:
             break
-    print("you have inserted"+ counter +"negative numbers")
+    print(f"you have inserted {counter} negative numbers")
