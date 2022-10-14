@@ -72,10 +72,12 @@ def average_from_input():
 # %%
 
 def negative_number():
+    counter = 0
+    
     while True:
         x = int(input("Give an int:"))
-        
+        if x < 0:
+            counter += 1
         if x == 0:
             break
-        else:
-            return x*(-1)
+    print("you have inserted"+ counter +"negative numbers")
